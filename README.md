@@ -11,7 +11,7 @@ This exhausts the servers thread pool and the server can't reply to other people
 
 ## How to run?
 * cd slowloris
-* python3 slowloris.py
+* python3 slowloris.py www.example.com (usually your local Apache server)
 
 ## Counter to this attack for Apache Servers
 * sudo apt-get -y install libapache2-mod-qos.
